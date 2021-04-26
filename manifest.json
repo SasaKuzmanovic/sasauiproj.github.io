@@ -1,6 +1,6 @@
 {
-    "name": "RazZ PWA",
-    "short_name": "RazZ PWA",
+    "name": "razz-pwa",
+    "short_name": "razz-pwa",
 	
 	"icons": [{
         "src": "img/icons/128_128.png",

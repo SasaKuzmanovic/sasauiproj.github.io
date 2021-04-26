@@ -1,6 +1,5 @@
 var cacheName = 'razz-pwa';
 var filesToCache = [
-  '/',
   '/index.html',
   '/css/push.css',
   '/js/script.js'
