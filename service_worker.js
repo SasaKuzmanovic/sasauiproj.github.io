@@ -1,7 +1,7 @@
 var cacheName = 'razz-pwa';
 var filesToCache = [
   '/',
-  '/GameLoop.html',
+  '/index.html',
   '/css/push.css',
   '/js/script.js'
 ];
