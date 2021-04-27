@@ -58,7 +58,7 @@
 	</style>
 	
 	<div class="endTurn">
-		<button onclick="endTurn()" class="TurnButton">End Turn</button>
+		<button onclick="endTurn()" id="end" class="TurnButton">End Turn</button>
 	</div>
 	<style>
 	.endTurn {
@@ -69,7 +69,7 @@
 	</style>
 	
 	<div onload="endTurn()" class="money">
-		<button>Money <span id="myMoney"></button>
+		<button>Money <span id="myMoney" id="mullah"></button>
 	</div>
 	<style>
 	.money {
@@ -80,7 +80,7 @@
 	</style>
 	
 	<div class="damage">
-		<button onclick="BuyDamagePoints()" class="damage">Buy Damage Points: 3</button>
+		<button onclick="BuyDamagePoints()" id="dmg" class="damage">Buy Damage Points: 3</button>
 	</div>
 	<style>
 	.damage {
@@ -91,7 +91,7 @@
 	</style>
 	
 	<div class="experience">
-		<button onclick="BuyExperiencePoints()" class="experience">Buy Experience points: 2</button>
+		<button onclick="BuyExperiencePoints()" id="exp" class="experience">Buy Experience points: 2</button>
 	</div>
 	<style>
 	.experience {
@@ -103,7 +103,7 @@
 	
 	<div class="help">
 		<span class="hovertext">Help Menu</span>
-		<button onclick="HelpMenu()" class="help">?</button>
+		<button onclick="HelpMenu()" id="helppls" class="help">?</button>
 	</div>
 	<style>
 	.help {
